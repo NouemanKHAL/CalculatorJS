@@ -1,0 +1,132 @@
+*{
+  font-family: 'Open Sans','Verdana','Arial';
+}
+
+h1
+{
+  text-align: center;
+}
+
+/* table */
+
+table
+{
+  position: relative;
+  width: 25%;
+  left: 37.5%;
+  margin: 0;
+  margin-top: 2%;
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 140, 255);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+
+/* end of table */
+
+
+/* row */
+td
+{
+  padding: 0.8em;
+  background-color: #f2f2f2;
+  width: 3em;
+  height: 1.5em;
+  text-align: center;
+  margin: 0;
+  user-select: none;
+  font-size: 120%;
+  -moz-user-select: none;
+}
+
+td:hover
+{
+  padding: 0.8em;
+  background-color: #dadada;
+  width: 3em;
+  height: 1.5em;
+  cursor: pointer;
+  -moz-user-select: none;
+}
+
+th{
+  padding: 1em;
+}
+
+.windows:
+{
+  font-size: 340%;
+}
+.windows:hover
+{
+  background-color:#dadada;
+}
+
+#windows_tools:hover
+{
+  background-color: rgb(255, 25, 25);
+  color: white;
+}
+
+#result{
+  text-align: right;
+  padding-right: 1em;
+  background-color: white;
+}
+
+#inverse,#square
+{
+  font-family: 'Times New Roman';
+  font-style: italic;
+}
+
+#TitreFenetre
+{
+  font-size: 90%;
+  text-align: left;
+  font-weight: normal;
+}
+
+
+.numbers
+{
+  font-weight: bold;
+}
+
+#windows
+{
+  background-image: url("img/windows_tools.PNG");
+  background-size: 100%;
+}
+#mathfunctions
+{
+  background-color: white;
+  border-top: 1px solid rgb(181, 181, 181);
+}
+
+#square
+{
+  font-weight:
+}
+
+#inverse,#square,#pourcentage,#sqrt{
+  background-color: white;
+}
+
+#inverse:hover,#square:hover,#pourcentage:hover,#sqrt:hover{
+  background-color: rgb(203, 203, 203);
+}
+
+td.fenetre{
+  background-color: white;
+  height: 5px;
+}
+
+td.fenetre:hover{
+  background-color: white;
+}
+
+
+
+
+/* end of row */

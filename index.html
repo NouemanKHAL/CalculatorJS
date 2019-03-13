@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculatrice Standard</title>
+  </head>
+  <body>
+    <script src="js/calculatrice.js"></script>
+
+  <table>
+
+    <tr class="fenetre">
+      <th id="TitreFenetre">Calculatrice</th>
+      <th style="font-size:110%;" class="windows">&minus; </th>
+      <th style="font-size:110%;" class="windows">&#x25A1;</th>
+      <th style="font-size:110%;" class="windows" id="windows_tools">&times;</th>
+    </tr>
+
+    <tr>
+      <td id="result" colspan="4">0</td>
+    </tr>
+
+    <tr id="mathfunctions">
+      <td id="pourcentage" onclick="POURCENTAGE()" >%</td>
+      <td id="sqrt"  onclick="SQRT()">&radic;</td>
+      <td id="square"   onclick="SQUARE()"  class="numbers">x²</td>
+      <td id="inverse" onclick="INVERSE()">1/x</td>
+    </tr>
+
+    <tr>
+      <td id="CE" onclick="CE()" >CE</td>
+      <td id="C"  onclick="C()">C</td>
+      <td id="backspace"   onclick="BACKSPACE()"  class="numbers">&#9664</td>
+      <td id="division" onclick="OPERATION('/')">&divide;</td>
+    </tr>
+
+    <tr>
+      <td id="7"   onclick="NUM(7)" class="numbers">7</td>
+      <td id="8"   onclick="NUM(8)" class="numbers">8</td>
+      <td id="9"   onclick="NUM(9)" class="numbers">9</td>
+      <td id="*"   onclick="OPERATION('x')">&times;</td>
+    </tr>
+
+    <tr>
+      <td id="4" onclick="NUM(4)" class="numbers">4</td>
+      <td id="5" onclick="NUM(5)" class="numbers">5</td>
+      <td id="6" onclick="NUM(6)" class="numbers">6</td>
+      <td id="minus" onclick="OPERATION('-')">-</td>
+    </tr>
+
+    <tr>
+      <td id="1" onclick="NUM(1)" class="numbers">1</td>
+      <td id="2" onclick="NUM(2)" class="numbers">2</td>
+      <td id="3" onclick="NUM(3)" class="numbers">3</td>
+      <td id="addition" onclick="OPERATION('+')">+</td>
+    </tr>
+
+    <tr>
+      <td id="plusmn"  onclick="NEGATE()"  class="numbers">&plusmn</td>
+      <td id="0"  onclick="NUM(0)"  class="numbers">0</td>
+      <td id=","  onclick="COMMA()"  class="numbers">,</td>
+      <td id="equal"  onclick="EQUAL()" >=</td>
+    </tr>
+
+  </table>
+  </body>
+</html>
